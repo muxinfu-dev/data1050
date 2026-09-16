@@ -1,0 +1,68 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== Conda =====
+# (Conda environments live outside the project by default,
+# but ignore any accidental local env folders just in case)
+.conda/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===== VSCode =====
+.vscode/
+
+# ===== macOS system files =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== Environment variables / secrets =====
+.env
+.env.local
+*.pem
+*.key
+
+# ===== PySpark / Spark =====
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# ===== MySQL / database dumps (usually shouldn't be committed) =====
+*.sql
+*.sqlite
+*.db
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Data files (often large / shouldn't be in git) =====
+*.csv
+*.parquet
+data/raw/
+data/processed/
+
+# ===== OS-generated files =====
+Thumbs.db
