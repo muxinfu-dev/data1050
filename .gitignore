@@ -58,11 +58,5 @@ derby.log
 *.log
 logs/
 
-# ===== Data files (often large / shouldn't be in git) =====
-*.csv
-*.parquet
-data/raw/
-data/processed/
-
 # ===== OS-generated files =====
 Thumbs.db
